@@ -1,38 +1,17 @@
-# Astrolink: Template to share about yourself
+# Astrolink-Moe: LinkTree Alternative Template to share about yourself
+
+A derivative of the original [Astrolink](https://github.com/alamguardin/Astrolink) but now more moe
+
 
 ```sh
-git clone https://github.com/alamguardin/Astrolink.git
+git clone https://github.com/pinapelz/astrolink-moe.git
 ```
 
-
-![Preview](/src/assets/screenshot-app.png)
+![Preview](https://files.catbox.moe/zomqaz.png)
 
 ## 🚀 How to change the content?
 
 To change the content of the templates, simply locate the ```user.json``` file inside the data folder. You can change the name, profession, and the links you want.
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── assets/
-│   │   └── screenshot-app.png
-│   │   └── user-profile-image.png
-│   ├── components/
-│   │   └── icons/
-│   │   └── Link.astro
-│   │   └── List.astro
-│   │   └── Profile.astro
-│   │   └── Shadow.astro
-│   ├── data/
-│   │   └── user.json
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
 
 Oh, additionally, you have the entire iconography of [Remixicons](https://remixicon.com/) available. You just need to write the name of the icon within the ```"icon"``` key of each link in the ```user.json``` file.
 
