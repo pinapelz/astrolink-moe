@@ -7,7 +7,7 @@ A derivative of the original [Astrolink](https://github.com/alamguardin/Astrolin
 git clone https://github.com/pinapelz/astrolink-moe.git
 ```
 
-![Preview](https://files.catbox.moe/zomqaz.png)
+![Preview](https://github.com/user-attachments/assets/533f0b94-4739-48b9-a4ab-60679b5d3f37)
 
 ## 🚀 How to change the content?
 
