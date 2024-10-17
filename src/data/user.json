@@ -1,48 +1,30 @@
 {
-    "name": "Kelly Bowlin",
-    "profession": "Web Designer",
+    "name": "moekyun.me",
+    "profession": "providing only the most moe of web services",
     "links": [
         {
-            "url": "#",
+            "url": "https://patchwork.moekyun.me",
+            "icon": "video-line",
+            "title": "Patchwork Archive",
+            "description": "An ongoing archival effort of songs and covers created by VTubers Preserving rhythm, one video at a time"
+        },
+        {
+            "url": "https://patchwork.moekyun.me",
+            "icon": "music-2-line",
+            "title": "Patchwork Radio",
+            "description": "A (usually) 24/7 internet radio stream of VTubers songs and covers, forever free and without Ads"
+        },
+        {
+            "url": "https://link.moekyun.me",
             "icon": "link",
-            "title": "Personal Portfolio",
-            "description": "All my latest design projects"
+            "title": "Moekyun Link Shortener",
+            "description": "Make your links a whole lot cuter (and more fun)"
         },
         {
-            "url": "#",
-            "icon": "youtube-fill",
-            "title": "Youtube Channel",
-            "description": "All my latest design projects"
-        },
-        {
-            "url": "#",
-            "icon": "shopping-bag-line",
-            "title": "Template Store",
-            "description": "Discover templates that suit you"
-        },
-        {
-            "url": "#",
-            "icon": "link",
-            "title": "Design Podcast",
-            "description": "Every Friday a new episode"
-        },
-        {
-            "url": "#",
-            "icon": "instagram-line",
-            "title": "Instagram Profile",
-            "description": "Designer lifestyle and more"
-        },
-        {
-            "url": "#",
-            "icon": "dribbble-line",
-            "title": "Dribbble Shots",
-            "description": "Know more about my work"
-        },
-        {
-            "url": "#",
-            "icon": "link",
-            "title": "Free Resources",
-            "description": "Collection of free resources"
+            "url": "https://github.com/pinapelz/vtuber-captcha",
+            "icon": "robot-line",
+            "title": "VTuber Captcha",
+            "description": "A bring your own user interface CAPTCHA service to test if users are true VTuber fans"
         }
     ]
 }

@@ -1,9 +1,9 @@
 ---
-import 'remixicon/fonts/remixicon.css'
+import "remixicon/fonts/remixicon.css";
 
 interface Props {
     icon: string;
-	title: string;
+    title: string;
     description: string;
     url: string;
 }
@@ -13,7 +13,7 @@ const { icon, title, description, url } = Astro.props;
 
 <a href={url} class="link">
     <span class="link-icon">
-        <i class={'ri-' + icon}></i>
+        <i class={"ri-" + icon}></i>
     </span>
     <div class="link-content">
         <h2 class="link-title">{title}</h2>
@@ -28,35 +28,40 @@ const { icon, title, description, url } = Astro.props;
         border: 1px solid var(--zinc-800);
         border-radius: 1rem;
         text-decoration: none;
+        background-color: var(--pink-pastel);
+        transition:
+            transform 0.2s ease-in-out,
+            box-shadow 0.2s ease-in-out;
+    }
+
+    .link:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     }
 
     .link-icon {
         width: 3rem;
         height: 3rem;
         margin-right: 1.125rem;
-        background: var(--zinc-900);
+        background: var(--pink-darker);
         border-radius: 0.5rem;
         display: flex;
         justify-content: center;
-        align-items: center;   
+        align-items: center;
     }
 
     .link-icon i {
         font-size: 1.5rem;
-        color: var(--zinc-50)
-    }
-
-    .link-title, .link-description {
-        font-size: 1rem;
+        color: var(--zinc-50);
     }
 
     .link-title {
-        color: var(--zinc-50);
-        font-weight: normal;
+        color: var(--zinc-900);
+        font-weight: bold;
     }
 
     .link-description {
-        color: var(--zinc-400);
+        color: var(--zinc-900);
         margin-top: 0.125rem;
     }
 </style>

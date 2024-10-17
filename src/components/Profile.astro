@@ -1,12 +1,12 @@
 ---
-import UserProfileImage from '../assets/user-profile-image.png'
-import dataList from '../data/user.json';
+import UserProfileImage from "../assets/profile-pfp.jpg";
+import dataList from "../data/user.json";
 ---
 
 <header class="profile">
     <div class="profile-picture-content">
         <figure class="profile-picture">
-            <img src={UserProfileImage.src} alt="This is me!">
+            <img src={UserProfileImage.src} alt="This is me!" />
         </figure>
     </div>
     <div class="profile-data">
@@ -17,7 +17,7 @@ import dataList from '../data/user.json';
 
 <style>
     .profile {
-        margin-top: 6rem;
+        margin-top: 0.5rem;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -28,13 +28,13 @@ import dataList from '../data/user.json';
         padding: 0.5rem;
         border-radius: 100%;
         border: 1px solid var(--zinc-800);
+        background-color: var(--pink-lighter);
     }
 
     .profile-picture {
-        width: 6rem;
-        height: 6rem;
-        border-radius: 100%;
-        border: 1px solid var(--zinc-800);
+        width: 10rem;
+        height: 10rem;
+        border-radius: 75%;
         overflow: hidden;
     }
 
@@ -50,12 +50,13 @@ import dataList from '../data/user.json';
     }
 
     .profile-name {
-        font-size: 1.125rem;
-        font-weight: normal;
+        font-size: 2.125rem;
+        font-weight: bold;
+        color: var(--zinc-900);
     }
 
     .profile-profession {
-        font-size: 0.875rem;
-        color: var(--zinc-400);
+        font-size: 1.2rem;
+        color: var(--zinc-900);
     }
 </style>

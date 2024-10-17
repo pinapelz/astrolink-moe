@@ -1,60 +1,34 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Profile from '../components/Profile.astro';
-import List from '../components/List.astro';
-import Shadow from '../components/Shadow.astro'
+import Layout from "../layouts/Layout.astro";
+import Profile from "../components/Profile.astro";
+import List from "../components/List.astro";
+import Footer from "../components/Footer.astro";
+import FooterImage from "../assets/603.gif";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Moekyun Web Services">
     <main class="container" id="container">
-        <Profile></Profile>
-        <List></List>
-        <Shadow></Shadow>
+        <Profile />
+
+        <List />
+        <div style="display: flex; justify-content: center; margin-top: 20px">
+            <img src={FooterImage.src} width="150px" alt="rosemi gif" />
+        </div>
+        <Footer />
     </main>
 </Layout>
 
 <style>
-	.container {
+    .container {
         position: relative;
         margin: auto;
+        justify-content: space-between;
         padding: 0.3125rem;
         max-width: 600px;
         width: 90%;
         height: 100vh;
-        overflow: hidden;
+        overflow: visible;
         scrollbar-width: 8px;
-        scrollbar-color: var(--zinc-900) var(--zinc-950)
+        scrollbar-color: var(--zinc-900) var(--zinc-950);
     }
 </style>
-
-<script>
-    (() => {
-        // show or hide shadow, works only if content leaves viewport
-        const mainContent = document.getElementById('container');
-        const shadow = document.getElementById('shadow');
-        const shadowButton = document.getElementById('shadow-button');
-
-        shadowButton.addEventListener('click', () => {
-            if (shadow.style.position === 'absolute') {
-                shadow.style.position = 'relative';
-                mainContent.style.overflow = 'auto';
-                shadowButton.children[0].textContent = 'Show Less';
-            
-            }  else {
-                shadow.style.position = 'absolute';
-                mainContent.style.overflow = 'hidden';
-                mainContent.scroll(0,0);
-                shadowButton.children[0].textContent = 'Explore More';
-            }
-        });
-
-        // Hide the shadow if the content is minimal enough to leave the viewport
-        const list = document.getElementById('list');
-        const observerList = list.getBoundingClientRect();
-
-        if (observerList.bottom <  window.innerHeight) {
-            shadow.style.display = 'none';
-            mainContent.style.overflow = 'auto';
-        }
-    })();
-</script>

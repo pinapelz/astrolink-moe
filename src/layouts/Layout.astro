@@ -1,6 +1,6 @@
 ---
 interface Props {
-	title: string;
+    title: string;
 }
 
 const { title } = Astro.props;
@@ -8,37 +8,90 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Astro description" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link
+            href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap"
+            rel="stylesheet"
+        />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+    </head>
+    <body>
+        <slot />
+    </body>
 </html>
 <style is:global>
-	:root {
-        --zinc-50: #FAFAFA;
-        --zinc-400: #A1A1AA;
-        --zinc-800: #27272A;
-        --zinc-900: #18181B;
-        --zinc-950: #09090B;
-	}
+    :root {
+        --pink-pastel: #ffd7f1;
+        --pink-lighter: #ffeaf8;
+        --pink-darker: #f5a9ce;
+        --zinc-50: #fff5fb;
+        --zinc-400: #f5c2e7;
+        --zinc-800: #e1a4c9;
+        --zinc-900: #d990b4;
+        --zinc-950: #ffedf6;
+    }
 
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
-	html {
-		font-family: 'Satoshi', system-ui, sans-serif;
-		background: var(--zinc-950);
-        color: var(--zinc-50)
-	}
+    html {
+        font-family: "Satoshi", system-ui, sans-serif;
+        color: var(--zinc-950);
+    }
+
+    body {
+        background: #fff4e6;
+        padding: 20px;
+    }
+
+    a {
+        color: var(--zinc-800);
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+    }
+
+    a:hover {
+        color: var(--pink-darker);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Satoshi", sans-serif;
+        color: var(--zinc-800);
+    }
+    button {
+        background: var(--zinc-50);
+        color: var(--zinc-900);
+        border: 2px solid var(--zinc-400);
+        border-radius: 12px;
+        padding: 10px 20px;
+        transition:
+            background 0.3s ease,
+            color 0.3s ease;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: var(--pink-darker);
+        color: var(--zinc-50);
+    }
+
+    .container {
+        padding: 20px;
+        overflow: visible;
+    }
 </style>
