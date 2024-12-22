@@ -2,6 +2,10 @@
 
 A derivative of the original [Astrolink](https://github.com/alamguardin/Astrolink) but now more moe
 
+Changes:
+- Moe CSS theme added and some layout changes from the original
+- You can render custom markdown files by placing markdown files in `public/md` and then visiting `/md?q=MDFileName`
+
 
 ```sh
 git clone https://github.com/pinapelz/astrolink-moe.git

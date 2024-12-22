@@ -1,9 +1,14 @@
 ---
 interface Props {
     title: string;
+    textColor?: string;
 }
 
-const { title } = Astro.props;
+const {
+    title,
+    textColor = "var(--zinc-950)",
+    background = "#fff4e6",
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -40,7 +45,7 @@ const { title } = Astro.props;
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
     </head>
-    <body>
+    <body style={`color: ${textColor}; background: ${background};`}>
         <slot />
     </body>
 </html>
@@ -70,7 +75,6 @@ const { title } = Astro.props;
     }
 
     body {
-        background: #fff4e6;
         padding: 20px;
     }
 

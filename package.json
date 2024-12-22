@@ -10,7 +10,13 @@
         "astro": "astro"
     },
     "dependencies": {
+        "@astrojs/markdown-remark": "^6.0.1",
+        "@astrojs/react": "^4.1.2",
+        "@types/react": "^19.0.2",
+        "@types/react-dom": "^19.0.2",
         "astro": "^4.16.18",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
         "remixicon": "^4.6.0"
     }
 }
