@@ -6,6 +6,7 @@ Changes:
 - Moe CSS theme added and some layout changes from the original
 - You can render custom markdown files by placing markdown files in `public/md` and then visiting `/md?q=MDFileName`
 
+Dynamically rendered markdown demo: https://moekyun.me/md?q=moekyun-social-tos
 
 ```sh
 git clone https://github.com/pinapelz/astrolink-moe.git
