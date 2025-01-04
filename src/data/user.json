@@ -3,6 +3,12 @@
     "profession": "providing only the most moe of web services",
     "links": [
         {
+            "url": "https://status.moekyun.me",
+            "icon": "settings-4-line",
+            "title": "Service Status",
+            "description": "Status and Uptime for all Moekyun Services"
+        },
+        {
             "url": "https://patchwork.moekyun.me",
             "icon": "video-line",
             "title": "Patchwork Archive",
