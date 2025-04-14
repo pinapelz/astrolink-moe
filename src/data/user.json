@@ -21,10 +21,16 @@
             "description": "A (usually) 24/7 internet radio stream of VTubers songs and covers, forever free and without Ads"
         },
         {
-            "url": "https://social.moekyun.me",
-            "icon": "fediverse-fill",
-            "title": "Moekyun Social",
-            "description": "A general Sharkey (Misskey fork) instance for anything you want to share with the world. Invite-only ask if you're cool"
+            "url": "https://github.com/pinapelz/vtuber-captcha",
+            "icon": "robot-line",
+            "title": "VTuber Captcha",
+            "description": "A bring your own user interface CAPTCHA service to test if users are true VTuber fans"
+        },
+        {
+            "url": "https://arcade.moekyun.me/",
+            "icon": "gamepad-line",
+            "title": "573-UPDATES",
+            "description": "A scraper and aggregator of information/news for various arcade games. Despite the name, there are plans to add more than just Konami games"
         },
         {
             "url": "https://link.moekyun.me",
