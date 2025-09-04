@@ -21,12 +21,6 @@
             "description": "A (usually) 24/7 internet radio stream of VTubers songs and covers, forever free and without Ads"
         },
         {
-            "url": "https://social.moekyun.me",
-            "icon": "fediverse-fill",
-            "title": "Moekyun Social",
-            "description": "A general Sharkey (Misskey fork) instance for anything you want to share with the world. Invite-only ask if you're cool"
-        },
-        {
             "url": "https://arcade.moekyun.me/",
             "icon": "gamepad-line",
             "title": "573-UPDATES",
