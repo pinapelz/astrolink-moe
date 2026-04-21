@@ -3,12 +3,6 @@
     "profession": "providing only the most moe of web services",
     "links": [
         {
-            "url": "https://status.moekyun.me",
-            "icon": "settings-4-line",
-            "title": "Service Status",
-            "description": "Status and Uptime for all Moekyun Services"
-        },
-        {
             "url": "https://patchwork.moekyun.me",
             "icon": "video-line",
             "title": "Patchwork Archive",
@@ -33,10 +27,10 @@
             "description": "Make your links a whole lot cuter (and more fun)"
         },
         {
-            "url": "https://karaoke.moekyun.me",
+            "url": "https://lrc.moekyun.me",
             "icon": "mic-line",
-            "title": "Moekyun Karaoke",
-            "description": "A karaoke player that can play back lyric (LRC) files in sync with video and backing audio. Also supports YouTube Timed Text. More to come!"
+            "title": "Moekyun LRC",
+            "description": "A karaoke player that can play back lyric (LRC) files in sync with video and backing audio, and a Monkeytype styled typing game that challenges you to type with the lyrics"
         },
         {
             "url": "https://captcha.moekyun.me",
