@@ -31,6 +31,12 @@
             "icon": "robot-line",
             "title": "VTuber Captcha",
             "description": "A bring your own user interface CAPTCHA service to test if users are true VTuber fans"
+        },
+        {
+            "url": "https://status.moekyun.me/status/moekyun",
+            "icon": "clock",
+            "title": "Status",
+            "description": "Hosted Services"
         }
     ]
 }
