@@ -34,7 +34,7 @@
         },
         {
             "url": "https://status.moekyun.me/status/moekyun",
-            "icon": "clock",
+            "icon": "clock-line",
             "title": "Status",
             "description": "Hosted Services"
         }
